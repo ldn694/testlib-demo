@@ -1,0 +1,4 @@
+doc: https://docs.google.com/document/d/1VXCFAPxidf2qUbV_eOqPYnJuV7K1LGLiQnZhdWU5JUA/edit?usp=sharing
+ref: https://codeforces.com/testlib
+template: https://github.com/ldn694/testlib-demo
+test formatter: https://sites.google.com/site/kc97bla/test-formatter?pli=1

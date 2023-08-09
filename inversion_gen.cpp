@@ -8,14 +8,14 @@ int main(int argc, char* argv[]){
     int goalN = opt<int>("goalN");
     int startV = opt<int>("startV");
     int goalV = opt<int>("goalV");
+    //n se nam trong khoang [startN, goalN], ai nam trong khoang [startV, goalV]
     int n = rnd.next(startN, goalN);
     cout << n << "\n";
     for (int i = 1; i <= n; i++) {
         cout << rnd.next(startV, goalV);
-        if (i < n) {
-            cout << " ";
-        }
+        if (i < n) cout << " "; // khong co dau cach o cuoi dong
     }
+    cout << "\n";
 }
 
 
